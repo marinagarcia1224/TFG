@@ -8,7 +8,7 @@ This repository contains the necessary scripts to perform a simplified analysis 
    
    -Signal + Background Fit. Uses the DSCB function with the tail parameters fixed to the values obtained from the MC. The background is modeled with a polynomial whose degree depends on the available statistics of each category.
    
-   -Results Extraction. Calculates the fitted Higgs mass, resolution, number of signal events, and the statistical significance of the discovery in each channel, generating plots with the main panel and a residuals panel (background subtraction).
+   -Results extraction. Calculates the fitted Higgs mass, resolution, number of signal events, and the statistical significance of the discovery in each channel, generating plots with the main panel and a residuals panel (background subtraction).
 
    HOW TO RUN
    
