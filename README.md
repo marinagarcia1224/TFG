@@ -18,12 +18,10 @@ This repository contains the necessary scripts to perform a simplified analysis 
    This generates a folder containing the results.
 
 3. mc10.py (Monte Carlo analysis). This script analyzes the simulated signal samples (ggH, VBF, VH, ttH) and the continuous background ($\gamma\gamma$).
- 
-   -Event selection and categorization (applies the exact same selection and categorization chain as the v12.py)
    
    -Shape plots. Generates histograms to compare the kinematic distributions of the different production modes (jet/lepton multiplicity, $m_{jj}$,   $Z_{\gamma\gamma}$, etc.).
    
-   -Composition matrices. Calculates and plots efficiency and purity matrices.
+   -Composition matrices. Calculates and plots efficiency and purity matrices (applies the exact same selection and categorization chain as the v12.py)
 
    -Signal fits. Performs fits on the Higgs mass peak using functions such as Gaussian, Breit-Wigner, and DSCB. The resulting parameters from the DSCB are saved to be used later on real data.
 
