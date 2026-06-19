@@ -10,7 +10,7 @@ This repository contains the necessary scripts to perform a simplified analysis 
    
    -Results extraction. Calculates the fitted Higgs mass, resolution, number of signal events, and the statistical significance of the discovery in each channel, generating plots with the main panel and a residuals panel (background subtraction).
 
-   HOW TO RUN
+   HOW TO RUN (15min)
    
    Bash
    python v12.py
@@ -26,7 +26,7 @@ This repository contains the necessary scripts to perform a simplified analysis 
    -Signal fits. Performs fits on the Higgs mass peak using functions such as Gaussian, Breit-Wigner, and DSCB. The resulting parameters from the DSCB are saved to be used later on real data.
 
 
-   HOW TO RUN
+   HOW TO RUN (1min)
    
    Bash
    python mc10.py
